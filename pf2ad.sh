@@ -49,7 +49,7 @@ chown -R :proxy /var/db/samba4/winbindd_privileged
 chmod -R 0750 /var/db/samba4/winbindd_privileged
 
 fetch -o /usr/local/pkg -q https://github.com/rferreira976/pf2ad/blob/2.4.4-SAMBA4/2.4.4-SAMBA4/samba.inc
-fetch -o /usr/local/pkg -q https://github.com/rferreira976/pf2ad/blob/2.4.4-SAMBA4/2.4.4-SAMBA4/samba.inc
+fetch -o /usr/local/pkg -q https://github.com/rferreira976/pf2ad/blob/2.4.4-SAMBA4/2.4.4-SAMBA4/samba.xml
 
 /usr/local/sbin/pfSsh.php <<EOF
 \$samba = false;
