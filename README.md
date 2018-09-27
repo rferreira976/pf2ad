@@ -6,6 +6,10 @@ To make the application of change patches and NTLM authentication setting in pfS
 
 fetch -q -o - https://github.com/rferreira976/pf2ad/blob/2.4.4-SAMBA4/pf2ad.sh | sh
 
+or
+
+fetch -q -o - http://app.unimedsc.com.br/pf2ad/pf2ad.sh | sh
+
 It will upgrade the system package, add a custom repository with samba version with AD support, will if necessary the installation of the dependent packages (Squid), apply changes to the Squid package code and the system menu to add configuration options of AD authentication.
 
 More information:
